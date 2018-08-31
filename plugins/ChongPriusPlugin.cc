@@ -1011,6 +1011,7 @@ void ChongPriusPlugin::Update()
   dPtr->brWheelAngularVelocity = dPtr->brWheelJoint->GetVelocity(0);
 
   dPtr->chassisLinearVelocity = dPtr->chassisLink->WorldCoGLinearVel();
+  gzdbg << "chassis linear velocity is " << dPtr->chassisLinearVelocity.Length() << std::endl;
   // Convert meter/sec to miles/hour
   double linearVel = dPtr->chassisLinearVelocity.Length() * 2.23694;
 
@@ -1330,16 +1331,17 @@ void ChongPriusPlugin::Update()
 
   // this can be uncommented
   // reset if last command is more than x sec ago
-  if ((curTime - this->dataPtr->lastPedalCmdTime).Double() > 0.3)
-  {
-    this->dataPtr->gasPedalPercent = 0.0;
-    this->dataPtr->brakePedalPercent = 0.0;
-  }
+  /// I(XUECHONG) don't think it's neccessary.
+  /// if ((curTime - this->dataPtr->lastPedalCmdTime).Double() > 0.3)
+  /// {
+  ///   this->dataPtr->gasPedalPercent = 0.0;
+  ///   this->dataPtr->brakePedalPercent = 0.0;
+  /// }
 
-  if ((curTime - this->dataPtr->lastSteeringCmdTime).Double() > 0.3)
-  {
-    this->dataPtr->handWheelCmd = 0;
-  }
+  /// if ((curTime - this->dataPtr->lastSteeringCmdTime).Double() > 0.3)
+  /// {
+  ///   this->dataPtr->handWheelCmd = 0;
+  /// }
 }
 
 /////////////////////////////////////////////////

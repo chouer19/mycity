@@ -1,4 +1,4 @@
-# Install script for directory: /home/zfserver/xuechong/gazebo_ws/mycity/media/materials/programs
+# Install script for directory: /home/chouer/workspace/gazebo_ws/mycity/media/materials/programs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/share/citysim-0/media/materials/programs/Blur_vs.glsl;/usr/local/share/citysim-0/media/materials/programs/BlurV_ps20.glsl;/usr/local/share/citysim-0/media/materials/programs/StdQuad_Tex2a_vp.glsl;/usr/local/share/citysim-0/media/materials/programs/BrightBloom2_ps20.glsl;/usr/local/share/citysim-0/media/materials/programs/StdQuad_vp.glsl;/usr/local/share/citysim-0/media/materials/programs/BlurH_ps20.glsl;/usr/local/share/citysim-0/media/materials/programs/Bloom2_ps20.glsl")
+   "/usr/local/share/citysim-0/media/materials/programs/BlurH_ps20.glsl;/usr/local/share/citysim-0/media/materials/programs/Bloom2_ps20.glsl;/usr/local/share/citysim-0/media/materials/programs/Blur_vs.glsl;/usr/local/share/citysim-0/media/materials/programs/BlurV_ps20.glsl;/usr/local/share/citysim-0/media/materials/programs/StdQuad_Tex2a_vp.glsl;/usr/local/share/citysim-0/media/materials/programs/BrightBloom2_ps20.glsl;/usr/local/share/citysim-0/media/materials/programs/StdQuad_vp.glsl")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
@@ -42,13 +42,13 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/share/citysim-0/media/materials/programs" TYPE FILE FILES
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/programs/Blur_vs.glsl"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/programs/BlurV_ps20.glsl"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/programs/StdQuad_Tex2a_vp.glsl"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/programs/BrightBloom2_ps20.glsl"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/programs/StdQuad_vp.glsl"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/programs/BlurH_ps20.glsl"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/programs/Bloom2_ps20.glsl"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/programs/BlurH_ps20.glsl"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/programs/Bloom2_ps20.glsl"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/programs/Blur_vs.glsl"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/programs/BlurV_ps20.glsl"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/programs/StdQuad_Tex2a_vp.glsl"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/programs/BrightBloom2_ps20.glsl"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/programs/StdQuad_vp.glsl"
     )
 endif()
 

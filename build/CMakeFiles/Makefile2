@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zfserver/xuechong/gazebo_ws/mycity
+CMAKE_SOURCE_DIR = /home/chouer/workspace/gazebo_ws/mycity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zfserver/xuechong/gazebo_ws/mycity/build
+CMAKE_BINARY_DIR = /home/chouer/workspace/gazebo_ws/mycity/build
 
 #=============================================================================
 # Directory level rules for directory plugins
@@ -97,7 +97,7 @@ plugins/preinstall:
 plugins/CMakeFiles/JoyPlugin.dir/all: plugins/CMakeFiles/JoyPlugin_automoc.dir/all
 	$(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=9,10,11 "Built target JoyPlugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=9,10,11 "Built target JoyPlugin"
 .PHONY : plugins/CMakeFiles/JoyPlugin.dir/all
 
 # Include target in all.
@@ -107,9 +107,9 @@ all: plugins/CMakeFiles/JoyPlugin.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/JoyPlugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/JoyPlugin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/JoyPlugin.dir/rule
 
 # Convenience name for target.
@@ -134,7 +134,7 @@ clean: plugins/CMakeFiles/JoyPlugin.dir/clean
 plugins/CMakeFiles/BloomVisualPlugin.dir/all: plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/all
 	$(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=1,2,3 "Built target BloomVisualPlugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=1,2,3 "Built target BloomVisualPlugin"
 .PHONY : plugins/CMakeFiles/BloomVisualPlugin.dir/all
 
 # Include target in all.
@@ -144,9 +144,9 @@ all: plugins/CMakeFiles/BloomVisualPlugin.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/BloomVisualPlugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/BloomVisualPlugin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/BloomVisualPlugin.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ clean: plugins/CMakeFiles/BloomVisualPlugin.dir/clean
 plugins/CMakeFiles/ChongPriusPlugin.dir/all: plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/all
 	$(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=5,6,7 "Built target ChongPriusPlugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=5,6,7 "Built target ChongPriusPlugin"
 .PHONY : plugins/CMakeFiles/ChongPriusPlugin.dir/all
 
 # Include target in all.
@@ -181,9 +181,9 @@ all: plugins/CMakeFiles/ChongPriusPlugin.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/ChongPriusPlugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/ChongPriusPlugin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/ChongPriusPlugin.dir/rule
 
 # Convenience name for target.
@@ -208,7 +208,7 @@ clean: plugins/CMakeFiles/ChongPriusPlugin.dir/clean
 plugins/CMakeFiles/LensFlareVisualPlugin.dir/all: plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/all
 	$(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=13,14,15 "Built target LensFlareVisualPlugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=13,14,15 "Built target LensFlareVisualPlugin"
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin.dir/all
 
 # Include target in all.
@@ -218,9 +218,9 @@ all: plugins/CMakeFiles/LensFlareVisualPlugin.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/LensFlareVisualPlugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/LensFlareVisualPlugin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin.dir/rule
 
 # Convenience name for target.
@@ -245,7 +245,7 @@ clean: plugins/CMakeFiles/LensFlareVisualPlugin.dir/clean
 plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/all: plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/all
 	$(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=17,18,19 "Built target TrafficLightsGUIPlugin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=17,18,19 "Built target TrafficLightsGUIPlugin"
 .PHONY : plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/all
 
 # Include target in all.
@@ -255,9 +255,9 @@ all: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/rule
 
 # Convenience name for target.
@@ -282,14 +282,14 @@ clean: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/clean
 plugins/CMakeFiles/JoyPlugin_automoc.dir/all:
 	$(MAKE) -f plugins/CMakeFiles/JoyPlugin_automoc.dir/build.make plugins/CMakeFiles/JoyPlugin_automoc.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/JoyPlugin_automoc.dir/build.make plugins/CMakeFiles/JoyPlugin_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=12 "Built target JoyPlugin_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=12 "Built target JoyPlugin_automoc"
 .PHONY : plugins/CMakeFiles/JoyPlugin_automoc.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/JoyPlugin_automoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/JoyPlugin_automoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/JoyPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -314,14 +314,14 @@ clean: plugins/CMakeFiles/JoyPlugin_automoc.dir/clean
 plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/all:
 	$(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/build.make plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/build.make plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=4 "Built target BloomVisualPlugin_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=4 "Built target BloomVisualPlugin_automoc"
 .PHONY : plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -346,14 +346,14 @@ clean: plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/clean
 plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/all:
 	$(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/build.make plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/build.make plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=8 "Built target ChongPriusPlugin_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=8 "Built target ChongPriusPlugin_automoc"
 .PHONY : plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -378,14 +378,14 @@ clean: plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/clean
 plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/all:
 	$(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=16 "Built target LensFlareVisualPlugin_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=16 "Built target LensFlareVisualPlugin_automoc"
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -410,14 +410,14 @@ clean: plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/clean
 plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/all:
 	$(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/depend
 	$(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=20 "Built target TrafficLightsGUIPlugin_automoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=20 "Built target TrafficLightsGUIPlugin_automoc"
 .PHONY : plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/all
 
 # Build rule for subdir invocation for target.
 plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/rule
 
 # Convenience name for target.

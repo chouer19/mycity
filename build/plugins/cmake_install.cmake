@@ -1,4 +1,4 @@
-# Install script for directory: /home/zfserver/xuechong/gazebo_ws/mycity/plugins
+# Install script for directory: /home/chouer/workspace/gazebo_ws/mycity/plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -47,12 +47,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/libLensFlareVisualPlugin.so")
+file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/chouer/workspace/gazebo_ws/mycity/build/plugins/libLensFlareVisualPlugin.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libLensFlareVisualPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libLensFlareVisualPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libLensFlareVisualPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:"
+         OLD_RPATH "/usr/local/lib:/usr/local/lib/gazebo-10/plugins:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libLensFlareVisualPlugin.so")
@@ -75,12 +75,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/libBloomVisualPlugin.so")
+file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/chouer/workspace/gazebo_ws/mycity/build/plugins/libBloomVisualPlugin.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libBloomVisualPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libBloomVisualPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libBloomVisualPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:"
+         OLD_RPATH "/usr/local/lib:/usr/local/lib/gazebo-10/plugins:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libBloomVisualPlugin.so")
@@ -103,12 +103,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/libJoyPlugin.so")
+file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/chouer/workspace/gazebo_ws/mycity/build/plugins/libJoyPlugin.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libJoyPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libJoyPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libJoyPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:"
+         OLD_RPATH "/usr/local/lib:/usr/local/lib/gazebo-10/plugins:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libJoyPlugin.so")
@@ -131,12 +131,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/libChongPriusPlugin.so")
+file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/chouer/workspace/gazebo_ws/mycity/build/plugins/libChongPriusPlugin.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libChongPriusPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libChongPriusPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libChongPriusPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:"
+         OLD_RPATH "/usr/local/lib:/usr/local/lib/gazebo-10/plugins:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libChongPriusPlugin.so")
@@ -159,12 +159,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/libTrafficLightsGUIPlugin.so")
+file(INSTALL DESTINATION "/usr/local/lib/citysim-0/plugins" TYPE SHARED_LIBRARY FILES "/home/chouer/workspace/gazebo_ws/mycity/build/plugins/libTrafficLightsGUIPlugin.so")
   if(EXISTS "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so"
-         OLD_RPATH "/usr/lib/x86_64-linux-gnu/gazebo-9/plugins:/home/zfserver/anaconda2/lib:"
+         OLD_RPATH "/usr/local/lib:/usr/local/lib/gazebo-10/plugins:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/local/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so")

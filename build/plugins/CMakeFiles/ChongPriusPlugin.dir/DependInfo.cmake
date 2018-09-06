@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zfserver/xuechong/gazebo_ws/mycity/plugins/ChongPriusPlugin.cc" "/home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin.cc.o"
-  "/home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/ChongPriusPlugin_automoc.cpp" "/home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin_automoc.cpp.o"
+  "/home/chouer/workspace/gazebo_ws/mycity/plugins/ChongPriusPlugin.cc" "/home/chouer/workspace/gazebo_ws/mycity/build/plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin.cc.o"
+  "/home/chouer/workspace/gazebo_ws/mycity/build/plugins/ChongPriusPlugin_automoc.cpp" "/home/chouer/workspace/gazebo_ws/mycity/build/plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin_automoc.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/gazebo-9"
+  "/usr/local/include"
+  "/usr/local/include/gazebo-10"
   "/usr/include/bullet"
   "/usr/include/simbody"
   "/usr/include/sdformat-6.0"
@@ -30,9 +31,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/ignition/msgs1"
   "/usr/include/ignition/common1"
   "/usr/include/ignition/fuel_tools1"
-  "/home/zfserver/anaconda2/include/qt"
-  "/home/zfserver/anaconda2/include/qt/QtCore"
-  "/home/zfserver/anaconda2/./mkspecs/linux-g++"
+  "/usr/include/x86_64-linux-gnu/qt5"
+  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"
   "/usr/include/uuid"
   "/usr/include/x86_64-linux-gnu"
   )

@@ -19,6 +19,7 @@
 #include <mutex>
 #include <thread>
 
+//#include <ignition/math/Pose3.h>
 #include <ignition/math/Pose3.hh>
 #include <ignition/transport/Node.hh>
 #include <ignition/transport/AdvertiseOptions.hh>
@@ -891,6 +892,15 @@ void ChongPriusPlugin::KeyControlTypeB(const int _key)
       }
       break;
     }
+    case 82:
+    case 114:
+    {
+      //this->dataPtr->model->Reset();
+      msgs::WorldControl msg;
+      msg.mutable_reset()->set_all(true);
+      this->dataPtr->worldControlPub->Publish(msg);
+      break;
+    }
     default:
     {
       break;
@@ -1011,7 +1021,8 @@ void ChongPriusPlugin::Update()
   dPtr->brWheelAngularVelocity = dPtr->brWheelJoint->GetVelocity(0);
 
   dPtr->chassisLinearVelocity = dPtr->chassisLink->WorldCoGLinearVel();
-  gzdbg << "chassis linear velocity is " << dPtr->chassisLinearVelocity.Length() << std::endl;
+  /// test for velocity output
+  /// gzdbg << "chassis linear velocity is " << dPtr->chassisLinearVelocity.Length() << std::endl;
   // Convert meter/sec to miles/hour
   double linearVel = dPtr->chassisLinearVelocity.Length() * 2.23694;
 

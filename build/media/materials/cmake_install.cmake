@@ -1,4 +1,4 @@
-# Install script for directory: /home/zfserver/xuechong/gazebo_ws/mycity/media/materials
+# Install script for directory: /home/chouer/workspace/gazebo_ws/mycity/media/materials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/zfserver/xuechong/gazebo_ws/mycity/build/media/materials/scripts/cmake_install.cmake")
-  include("/home/zfserver/xuechong/gazebo_ws/mycity/build/media/materials/programs/cmake_install.cmake")
+  include("/home/chouer/workspace/gazebo_ws/mycity/build/media/materials/scripts/cmake_install.cmake")
+  include("/home/chouer/workspace/gazebo_ws/mycity/build/media/materials/programs/cmake_install.cmake")
 
 endif()
 

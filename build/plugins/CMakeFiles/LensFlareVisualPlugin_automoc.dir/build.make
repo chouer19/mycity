@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zfserver/xuechong/gazebo_ws/mycity
+CMAKE_SOURCE_DIR = /home/chouer/workspace/gazebo_ws/mycity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zfserver/xuechong/gazebo_ws/mycity/build
+CMAKE_BINARY_DIR = /home/chouer/workspace/gazebo_ws/mycity/build
 
 # Utility rule file for LensFlareVisualPlugin_automoc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/zfserver/xuechong/gazebo_ws/mycity/build
 include plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/progress.make
 
 plugins/CMakeFiles/LensFlareVisualPlugin_automoc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target LensFlareVisualPlugin"
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build/plugins && /usr/bin/cmake -E cmake_autogen /home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/ Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic moc for target LensFlareVisualPlugin"
+	cd /home/chouer/workspace/gazebo_ws/mycity/build/plugins && /usr/bin/cmake -E cmake_autogen /home/chouer/workspace/gazebo_ws/mycity/build/plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/ Release
 
 LensFlareVisualPlugin_automoc: plugins/CMakeFiles/LensFlareVisualPlugin_automoc
 LensFlareVisualPlugin_automoc: plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build.make
@@ -68,10 +68,10 @@ plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build: LensFlareVisualPlugi
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build
 
 plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/clean:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build/plugins && $(CMAKE_COMMAND) -P CMakeFiles/LensFlareVisualPlugin_automoc.dir/cmake_clean.cmake
+	cd /home/chouer/workspace/gazebo_ws/mycity/build/plugins && $(CMAKE_COMMAND) -P CMakeFiles/LensFlareVisualPlugin_automoc.dir/cmake_clean.cmake
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/clean
 
 plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/depend:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zfserver/xuechong/gazebo_ws/mycity /home/zfserver/xuechong/gazebo_ws/mycity/plugins /home/zfserver/xuechong/gazebo_ws/mycity/build /home/zfserver/xuechong/gazebo_ws/mycity/build/plugins /home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/chouer/workspace/gazebo_ws/mycity /home/chouer/workspace/gazebo_ws/mycity/plugins /home/chouer/workspace/gazebo_ws/mycity/build /home/chouer/workspace/gazebo_ws/mycity/build/plugins /home/chouer/workspace/gazebo_ws/mycity/build/plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/depend
 

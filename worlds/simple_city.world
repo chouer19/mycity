@@ -13211,7 +13211,7 @@
       <name>prius_hybrid_123</name>
       <pose> -40 -1.9 5.01 0 0 1.57 </pose>
 
-      <uri>model://prius_hybrid_sensors</uri>
+      <uri>model://my_prius</uri>
       <plugin name="prius" filename="libChongPriusPlugin.so">
         <chassis>prius_hybrid::chassis</chassis>
         <front_left_wheel>prius_hybrid::front_left_combined_joint</front_left_wheel>

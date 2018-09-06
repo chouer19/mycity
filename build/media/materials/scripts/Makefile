@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zfserver/xuechong/gazebo_ws/mycity
+CMAKE_SOURCE_DIR = /home/chouer/workspace/gazebo_ws/mycity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zfserver/xuechong/gazebo_ws/mycity/build
+CMAKE_BINARY_DIR = /home/chouer/workspace/gazebo_ws/mycity/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/zfserver/xuechong/gazebo_ws/mycity/build/CPackSourceConfig.cmake
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/chouer/workspace/gazebo_ws/mycity/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -92,7 +92,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -146,14 +146,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles /home/zfserver/xuechong/gazebo_ws/mycity/build/media/materials/scripts/CMakeFiles/progress.marks
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 media/materials/scripts/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles /home/chouer/workspace/gazebo_ws/mycity/build/media/materials/scripts/CMakeFiles/progress.marks
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 media/materials/scripts/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 media/materials/scripts/clean
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 media/materials/scripts/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,17 +163,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 media/materials/scripts/preinstall
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 media/materials/scripts/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 media/materials/scripts/preinstall
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 media/materials/scripts/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -201,6 +201,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

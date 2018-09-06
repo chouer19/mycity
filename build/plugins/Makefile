@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zfserver/xuechong/gazebo_ws/mycity
+CMAKE_SOURCE_DIR = /home/chouer/workspace/gazebo_ws/mycity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zfserver/xuechong/gazebo_ws/mycity/build
+CMAKE_BINARY_DIR = /home/chouer/workspace/gazebo_ws/mycity/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/zfserver/xuechong/gazebo_ws/mycity/build/CPackSourceConfig.cmake
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/chouer/workspace/gazebo_ws/mycity/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -92,7 +92,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -146,14 +146,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles /home/zfserver/xuechong/gazebo_ws/mycity/build/plugins/CMakeFiles/progress.marks
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zfserver/xuechong/gazebo_ws/mycity/build/CMakeFiles 0
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles /home/chouer/workspace/gazebo_ws/mycity/build/plugins/CMakeFiles/progress.marks
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/chouer/workspace/gazebo_ws/mycity/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clean
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/preinstall
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/preinstall
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 plugins/CMakeFiles/JoyPlugin.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/JoyPlugin.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/JoyPlugin.dir/rule
 .PHONY : plugins/CMakeFiles/JoyPlugin.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ JoyPlugin: plugins/CMakeFiles/JoyPlugin.dir/rule
 
 # fast build rule for target.
 JoyPlugin/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/build
 .PHONY : JoyPlugin/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/BloomVisualPlugin.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/BloomVisualPlugin.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/BloomVisualPlugin.dir/rule
 .PHONY : plugins/CMakeFiles/BloomVisualPlugin.dir/rule
 
 # Convenience name for target.
@@ -203,12 +203,12 @@ BloomVisualPlugin: plugins/CMakeFiles/BloomVisualPlugin.dir/rule
 
 # fast build rule for target.
 BloomVisualPlugin/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/build
 .PHONY : BloomVisualPlugin/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/ChongPriusPlugin.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/ChongPriusPlugin.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/ChongPriusPlugin.dir/rule
 .PHONY : plugins/CMakeFiles/ChongPriusPlugin.dir/rule
 
 # Convenience name for target.
@@ -218,12 +218,12 @@ ChongPriusPlugin: plugins/CMakeFiles/ChongPriusPlugin.dir/rule
 
 # fast build rule for target.
 ChongPriusPlugin/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/build
 .PHONY : ChongPriusPlugin/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/LensFlareVisualPlugin.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/LensFlareVisualPlugin.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/LensFlareVisualPlugin.dir/rule
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin.dir/rule
 
 # Convenience name for target.
@@ -233,12 +233,12 @@ LensFlareVisualPlugin: plugins/CMakeFiles/LensFlareVisualPlugin.dir/rule
 
 # fast build rule for target.
 LensFlareVisualPlugin/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/build
 .PHONY : LensFlareVisualPlugin/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/rule
 .PHONY : plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/rule
 
 # Convenience name for target.
@@ -248,12 +248,12 @@ TrafficLightsGUIPlugin: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/rule
 
 # fast build rule for target.
 TrafficLightsGUIPlugin/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build
 .PHONY : TrafficLightsGUIPlugin/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/JoyPlugin_automoc.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/JoyPlugin_automoc.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/JoyPlugin_automoc.dir/rule
 .PHONY : plugins/CMakeFiles/JoyPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -263,12 +263,12 @@ JoyPlugin_automoc: plugins/CMakeFiles/JoyPlugin_automoc.dir/rule
 
 # fast build rule for target.
 JoyPlugin_automoc/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin_automoc.dir/build.make plugins/CMakeFiles/JoyPlugin_automoc.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin_automoc.dir/build.make plugins/CMakeFiles/JoyPlugin_automoc.dir/build
 .PHONY : JoyPlugin_automoc/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/rule
 .PHONY : plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -278,12 +278,12 @@ BloomVisualPlugin_automoc: plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/rule
 
 # fast build rule for target.
 BloomVisualPlugin_automoc/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/build.make plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/build.make plugins/CMakeFiles/BloomVisualPlugin_automoc.dir/build
 .PHONY : BloomVisualPlugin_automoc/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/rule
 .PHONY : plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -293,12 +293,12 @@ ChongPriusPlugin_automoc: plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/rule
 
 # fast build rule for target.
 ChongPriusPlugin_automoc/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/build.make plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/build.make plugins/CMakeFiles/ChongPriusPlugin_automoc.dir/build
 .PHONY : ChongPriusPlugin_automoc/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/rule
 .PHONY : plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ LensFlareVisualPlugin_automoc: plugins/CMakeFiles/LensFlareVisualPlugin_automoc.
 
 # fast build rule for target.
 LensFlareVisualPlugin_automoc/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin_automoc.dir/build
 .PHONY : LensFlareVisualPlugin_automoc/fast
 
 # Convenience name for target.
 plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/rule:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/rule
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f CMakeFiles/Makefile2 plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/rule
 .PHONY : plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/rule
 
 # Convenience name for target.
@@ -323,7 +323,7 @@ TrafficLightsGUIPlugin_automoc: plugins/CMakeFiles/TrafficLightsGUIPlugin_automo
 
 # fast build rule for target.
 TrafficLightsGUIPlugin_automoc/fast:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/build
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin_automoc.dir/build
 .PHONY : TrafficLightsGUIPlugin_automoc/fast
 
 BloomVisualPlugin.o: BloomVisualPlugin.cc.o
@@ -332,7 +332,7 @@ BloomVisualPlugin.o: BloomVisualPlugin.cc.o
 
 # target to build an object file
 BloomVisualPlugin.cc.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.o
 .PHONY : BloomVisualPlugin.cc.o
 
 BloomVisualPlugin.i: BloomVisualPlugin.cc.i
@@ -341,7 +341,7 @@ BloomVisualPlugin.i: BloomVisualPlugin.cc.i
 
 # target to preprocess a source file
 BloomVisualPlugin.cc.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.i
 .PHONY : BloomVisualPlugin.cc.i
 
 BloomVisualPlugin.s: BloomVisualPlugin.cc.s
@@ -350,7 +350,7 @@ BloomVisualPlugin.s: BloomVisualPlugin.cc.s
 
 # target to generate assembly for a file
 BloomVisualPlugin.cc.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.s
 .PHONY : BloomVisualPlugin.cc.s
 
 BloomVisualPlugin_automoc.o: BloomVisualPlugin_automoc.cpp.o
@@ -359,7 +359,7 @@ BloomVisualPlugin_automoc.o: BloomVisualPlugin_automoc.cpp.o
 
 # target to build an object file
 BloomVisualPlugin_automoc.cpp.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_automoc.cpp.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_automoc.cpp.o
 .PHONY : BloomVisualPlugin_automoc.cpp.o
 
 BloomVisualPlugin_automoc.i: BloomVisualPlugin_automoc.cpp.i
@@ -368,7 +368,7 @@ BloomVisualPlugin_automoc.i: BloomVisualPlugin_automoc.cpp.i
 
 # target to preprocess a source file
 BloomVisualPlugin_automoc.cpp.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_automoc.cpp.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_automoc.cpp.i
 .PHONY : BloomVisualPlugin_automoc.cpp.i
 
 BloomVisualPlugin_automoc.s: BloomVisualPlugin_automoc.cpp.s
@@ -377,7 +377,7 @@ BloomVisualPlugin_automoc.s: BloomVisualPlugin_automoc.cpp.s
 
 # target to generate assembly for a file
 BloomVisualPlugin_automoc.cpp.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_automoc.cpp.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/BloomVisualPlugin.dir/build.make plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_automoc.cpp.s
 .PHONY : BloomVisualPlugin_automoc.cpp.s
 
 ChongPriusPlugin.o: ChongPriusPlugin.cc.o
@@ -386,7 +386,7 @@ ChongPriusPlugin.o: ChongPriusPlugin.cc.o
 
 # target to build an object file
 ChongPriusPlugin.cc.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin.cc.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin.cc.o
 .PHONY : ChongPriusPlugin.cc.o
 
 ChongPriusPlugin.i: ChongPriusPlugin.cc.i
@@ -395,7 +395,7 @@ ChongPriusPlugin.i: ChongPriusPlugin.cc.i
 
 # target to preprocess a source file
 ChongPriusPlugin.cc.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin.cc.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin.cc.i
 .PHONY : ChongPriusPlugin.cc.i
 
 ChongPriusPlugin.s: ChongPriusPlugin.cc.s
@@ -404,7 +404,7 @@ ChongPriusPlugin.s: ChongPriusPlugin.cc.s
 
 # target to generate assembly for a file
 ChongPriusPlugin.cc.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin.cc.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin.cc.s
 .PHONY : ChongPriusPlugin.cc.s
 
 ChongPriusPlugin_automoc.o: ChongPriusPlugin_automoc.cpp.o
@@ -413,7 +413,7 @@ ChongPriusPlugin_automoc.o: ChongPriusPlugin_automoc.cpp.o
 
 # target to build an object file
 ChongPriusPlugin_automoc.cpp.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin_automoc.cpp.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin_automoc.cpp.o
 .PHONY : ChongPriusPlugin_automoc.cpp.o
 
 ChongPriusPlugin_automoc.i: ChongPriusPlugin_automoc.cpp.i
@@ -422,7 +422,7 @@ ChongPriusPlugin_automoc.i: ChongPriusPlugin_automoc.cpp.i
 
 # target to preprocess a source file
 ChongPriusPlugin_automoc.cpp.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin_automoc.cpp.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin_automoc.cpp.i
 .PHONY : ChongPriusPlugin_automoc.cpp.i
 
 ChongPriusPlugin_automoc.s: ChongPriusPlugin_automoc.cpp.s
@@ -431,7 +431,7 @@ ChongPriusPlugin_automoc.s: ChongPriusPlugin_automoc.cpp.s
 
 # target to generate assembly for a file
 ChongPriusPlugin_automoc.cpp.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin_automoc.cpp.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/ChongPriusPlugin.dir/build.make plugins/CMakeFiles/ChongPriusPlugin.dir/ChongPriusPlugin_automoc.cpp.s
 .PHONY : ChongPriusPlugin_automoc.cpp.s
 
 JoyPlugin.o: JoyPlugin.cc.o
@@ -440,7 +440,7 @@ JoyPlugin.o: JoyPlugin.cc.o
 
 # target to build an object file
 JoyPlugin.cc.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o
 .PHONY : JoyPlugin.cc.o
 
 JoyPlugin.i: JoyPlugin.cc.i
@@ -449,7 +449,7 @@ JoyPlugin.i: JoyPlugin.cc.i
 
 # target to preprocess a source file
 JoyPlugin.cc.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.i
 .PHONY : JoyPlugin.cc.i
 
 JoyPlugin.s: JoyPlugin.cc.s
@@ -458,7 +458,7 @@ JoyPlugin.s: JoyPlugin.cc.s
 
 # target to generate assembly for a file
 JoyPlugin.cc.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.s
 .PHONY : JoyPlugin.cc.s
 
 JoyPlugin_automoc.o: JoyPlugin_automoc.cpp.o
@@ -467,7 +467,7 @@ JoyPlugin_automoc.o: JoyPlugin_automoc.cpp.o
 
 # target to build an object file
 JoyPlugin_automoc.cpp.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin_automoc.cpp.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin_automoc.cpp.o
 .PHONY : JoyPlugin_automoc.cpp.o
 
 JoyPlugin_automoc.i: JoyPlugin_automoc.cpp.i
@@ -476,7 +476,7 @@ JoyPlugin_automoc.i: JoyPlugin_automoc.cpp.i
 
 # target to preprocess a source file
 JoyPlugin_automoc.cpp.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin_automoc.cpp.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin_automoc.cpp.i
 .PHONY : JoyPlugin_automoc.cpp.i
 
 JoyPlugin_automoc.s: JoyPlugin_automoc.cpp.s
@@ -485,7 +485,7 @@ JoyPlugin_automoc.s: JoyPlugin_automoc.cpp.s
 
 # target to generate assembly for a file
 JoyPlugin_automoc.cpp.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin_automoc.cpp.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/JoyPlugin.dir/build.make plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin_automoc.cpp.s
 .PHONY : JoyPlugin_automoc.cpp.s
 
 LensFlareVisualPlugin.o: LensFlareVisualPlugin.cc.o
@@ -494,7 +494,7 @@ LensFlareVisualPlugin.o: LensFlareVisualPlugin.cc.o
 
 # target to build an object file
 LensFlareVisualPlugin.cc.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.o
 .PHONY : LensFlareVisualPlugin.cc.o
 
 LensFlareVisualPlugin.i: LensFlareVisualPlugin.cc.i
@@ -503,7 +503,7 @@ LensFlareVisualPlugin.i: LensFlareVisualPlugin.cc.i
 
 # target to preprocess a source file
 LensFlareVisualPlugin.cc.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.i
 .PHONY : LensFlareVisualPlugin.cc.i
 
 LensFlareVisualPlugin.s: LensFlareVisualPlugin.cc.s
@@ -512,7 +512,7 @@ LensFlareVisualPlugin.s: LensFlareVisualPlugin.cc.s
 
 # target to generate assembly for a file
 LensFlareVisualPlugin.cc.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.s
 .PHONY : LensFlareVisualPlugin.cc.s
 
 LensFlareVisualPlugin_automoc.o: LensFlareVisualPlugin_automoc.cpp.o
@@ -521,7 +521,7 @@ LensFlareVisualPlugin_automoc.o: LensFlareVisualPlugin_automoc.cpp.o
 
 # target to build an object file
 LensFlareVisualPlugin_automoc.cpp.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_automoc.cpp.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_automoc.cpp.o
 .PHONY : LensFlareVisualPlugin_automoc.cpp.o
 
 LensFlareVisualPlugin_automoc.i: LensFlareVisualPlugin_automoc.cpp.i
@@ -530,7 +530,7 @@ LensFlareVisualPlugin_automoc.i: LensFlareVisualPlugin_automoc.cpp.i
 
 # target to preprocess a source file
 LensFlareVisualPlugin_automoc.cpp.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_automoc.cpp.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_automoc.cpp.i
 .PHONY : LensFlareVisualPlugin_automoc.cpp.i
 
 LensFlareVisualPlugin_automoc.s: LensFlareVisualPlugin_automoc.cpp.s
@@ -539,7 +539,7 @@ LensFlareVisualPlugin_automoc.s: LensFlareVisualPlugin_automoc.cpp.s
 
 # target to generate assembly for a file
 LensFlareVisualPlugin_automoc.cpp.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_automoc.cpp.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/LensFlareVisualPlugin.dir/build.make plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_automoc.cpp.s
 .PHONY : LensFlareVisualPlugin_automoc.cpp.s
 
 TrafficLightsGUIPlugin.o: TrafficLightsGUIPlugin.cc.o
@@ -548,7 +548,7 @@ TrafficLightsGUIPlugin.o: TrafficLightsGUIPlugin.cc.o
 
 # target to build an object file
 TrafficLightsGUIPlugin.cc.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o
 .PHONY : TrafficLightsGUIPlugin.cc.o
 
 TrafficLightsGUIPlugin.i: TrafficLightsGUIPlugin.cc.i
@@ -557,7 +557,7 @@ TrafficLightsGUIPlugin.i: TrafficLightsGUIPlugin.cc.i
 
 # target to preprocess a source file
 TrafficLightsGUIPlugin.cc.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.i
 .PHONY : TrafficLightsGUIPlugin.cc.i
 
 TrafficLightsGUIPlugin.s: TrafficLightsGUIPlugin.cc.s
@@ -566,7 +566,7 @@ TrafficLightsGUIPlugin.s: TrafficLightsGUIPlugin.cc.s
 
 # target to generate assembly for a file
 TrafficLightsGUIPlugin.cc.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.s
 .PHONY : TrafficLightsGUIPlugin.cc.s
 
 TrafficLightsGUIPlugin_automoc.o: TrafficLightsGUIPlugin_automoc.cpp.o
@@ -575,7 +575,7 @@ TrafficLightsGUIPlugin_automoc.o: TrafficLightsGUIPlugin_automoc.cpp.o
 
 # target to build an object file
 TrafficLightsGUIPlugin_automoc.cpp.o:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_automoc.cpp.o
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_automoc.cpp.o
 .PHONY : TrafficLightsGUIPlugin_automoc.cpp.o
 
 TrafficLightsGUIPlugin_automoc.i: TrafficLightsGUIPlugin_automoc.cpp.i
@@ -584,7 +584,7 @@ TrafficLightsGUIPlugin_automoc.i: TrafficLightsGUIPlugin_automoc.cpp.i
 
 # target to preprocess a source file
 TrafficLightsGUIPlugin_automoc.cpp.i:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_automoc.cpp.i
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_automoc.cpp.i
 .PHONY : TrafficLightsGUIPlugin_automoc.cpp.i
 
 TrafficLightsGUIPlugin_automoc.s: TrafficLightsGUIPlugin_automoc.cpp.s
@@ -593,7 +593,7 @@ TrafficLightsGUIPlugin_automoc.s: TrafficLightsGUIPlugin_automoc.cpp.s
 
 # target to generate assembly for a file
 TrafficLightsGUIPlugin_automoc.cpp.s:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_automoc.cpp.s
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(MAKE) -f plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_automoc.cpp.s
 .PHONY : TrafficLightsGUIPlugin_automoc.cpp.s
 
 # Help Target
@@ -661,6 +661,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zfserver/xuechong/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/chouer/workspace/gazebo_ws/mycity/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

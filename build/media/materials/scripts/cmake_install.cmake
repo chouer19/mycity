@@ -1,4 +1,4 @@
-# Install script for directory: /home/zfserver/xuechong/gazebo_ws/mycity/media/materials/scripts
+# Install script for directory: /home/chouer/workspace/gazebo_ws/mycity/media/materials/scripts
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -42,10 +42,10 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/share/citysim-0/media/materials/scripts" TYPE FILE FILES
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/scripts/citysim.material"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/scripts/Bloom2.material"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/scripts/Bloom2.compositor"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/media/materials/scripts/StdQuad_vp.program"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/scripts/citysim.material"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/scripts/Bloom2.material"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/scripts/Bloom2.compositor"
+    "/home/chouer/workspace/gazebo_ws/mycity/media/materials/scripts/StdQuad_vp.program"
     )
 endif()
 

@@ -3,23 +3,6 @@
 
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: ../plugins/JoyPlugin.cc
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: ../plugins/JoyPlugin.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/Assert.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/CommonTypes.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/Console.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/EnumIface.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/Event.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/Events.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/Exception.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/Plugin.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/SingletonT.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/SystemPaths.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/Time.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/common/UpdateInfo.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/gazebo_config.h
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/physics/PhysicsTypes.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/rendering/RenderTypes.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/sensors/SensorTypes.hh
-plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/gazebo-9/gazebo/util/system.hh
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/ignition/math4/ignition/math.hh
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/ignition/math4/ignition/math/Angle.hh
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/ignition/math4/ignition/math/Box.hh
@@ -257,6 +240,23 @@ plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/x86_64-linux-gnu/s
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/x86_64-linux-gnu/sys/stat.h
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/x86_64-linux-gnu/sys/sysmacros.h
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/include/x86_64-linux-gnu/sys/types.h
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/Assert.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/CommonTypes.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/Console.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/EnumIface.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/Event.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/Events.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/Exception.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/Plugin.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/SingletonT.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/SystemPaths.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/Time.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/common/UpdateInfo.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/gazebo_config.h
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/physics/PhysicsTypes.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/rendering/RenderTypes.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/sensors/SensorTypes.hh
+plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin.cc.o: /usr/local/include/gazebo-10/gazebo/util/system.hh
 
 plugins/CMakeFiles/JoyPlugin.dir/JoyPlugin_automoc.cpp.o: plugins/JoyPlugin_automoc.cpp
 

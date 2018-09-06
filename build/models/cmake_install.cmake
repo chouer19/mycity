@@ -1,4 +1,4 @@
-# Install script for directory: /home/zfserver/xuechong/gazebo_ws/mycity/models
+# Install script for directory: /home/chouer/workspace/gazebo_ws/mycity/models
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/local/share/citysim-0/models/actor;/usr/local/share/citysim-0/models/city_terrain;/usr/local/share/citysim-0/models/ocean")
+   "/usr/local/share/citysim-0/models/actor;/usr/local/share/citysim-0/models/city_terrain;/usr/local/share/citysim-0/models/ocean;/usr/local/share/citysim-0/models/my_prius")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
@@ -42,9 +42,10 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/share/citysim-0/models" TYPE DIRECTORY FILES
-    "/home/zfserver/xuechong/gazebo_ws/mycity/models/actor"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/models/city_terrain"
-    "/home/zfserver/xuechong/gazebo_ws/mycity/models/ocean"
+    "/home/chouer/workspace/gazebo_ws/mycity/models/actor"
+    "/home/chouer/workspace/gazebo_ws/mycity/models/city_terrain"
+    "/home/chouer/workspace/gazebo_ws/mycity/models/ocean"
+    "/home/chouer/workspace/gazebo_ws/mycity/models/my_prius"
     )
 endif()
 
